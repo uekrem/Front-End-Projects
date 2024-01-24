@@ -1,0 +1,66 @@
+a:visited{
+    color:black;
+}
+
+header > input[type="text"]{
+    padding-left: 15px;
+}
+
+.account img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.container {
+    border:1px solid #eee;
+    height: min-content;
+    width: 450px;
+    margin: 15px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: scale(1);
+    transition: 1s transform;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+h6 {
+    margin: 0px 0px 15px 80px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+
+.up{
+    display: flex;
+    background-color: beige;
+    height: 35px;
+    column-gap: 15px;
+    align-items: center;
+}
+
+a > img {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.HizliGosterim{
+    font-size: 13px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: calc(100% / 50);
+    margin-right: calc(100% / 50);
+}
+
+.container:hover{
+    transform: scale(1.1);
+    transition: 1s transform;
+}
+

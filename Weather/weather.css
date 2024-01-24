@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #7d8592;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1454789476662-53eb23ba5907?q=80&w=3152&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition: background-image 1s;
+}
+
+.container{
+    width: 60%;
+    height: 55%;
+    background-color: #0b121d;
+    transform: scale(0.95);
+    border: 0.5px solid black;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px 7px #1d2e4b;
+}
+
+.noWeather{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    column-gap: 5%;
+}
+
+.noWeather > div{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 7px;
+    
+}
+
+.noWeather > div:nth-of-type(2){
+    transform: scale(0.8);
+    background-color: #202B3B;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 7px #1d2e4b;
+}
+
+div > input{
+    width: 80%;
+    height: 20%;
+    font-size: 15px;
+    background-color: transparent;
+    border: 0.5px solid black;
+    text-align: center;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #202B3B;
+    box-shadow: 0px 0px 7px 7px #1d2e4b;
+    background-image: url("search.svg");
+    background-repeat: no-repeat;
+    background-position: center left 5px;
+    background-size: 25px;
+}
+
+.lastWeather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.lastWeather > div{
+    border: 1px solid black;
+    background-color: #202B3B;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    border-radius: 10px;
+    transform: scale(0.85);
+    white-space: nowrap;
+    overflow: auto;
+    text-overflow: ellipsis;
+    box-shadow: 0px 0px 7px 7px #1d2e4b;
+}
+
+img{
+    display: none;
+    width: 30%;
+    height: 40%; 
+}

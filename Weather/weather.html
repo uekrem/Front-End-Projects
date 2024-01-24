@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="container">
+
+            <!-- Now Weather Bar -->
+            <div class="noWeather">
+
+                <div>
+                    <p id="err" style="display:none;margin-bottom:10px;">Error: Enter a valid city name</p>
+                    <input id="input" type="text" placeholder="city ​​you want to learn">
+                </div>
+
+                 <!-- Now Weather -->
+                <div id="noWeatherRight"></div>
+
+            </div>
+
+            <!-- Future Weather -->
+            <div class="lastWeather"></div>
+
+        </div>
+        <script src="weather.js"></script>
+</body>
+</html>

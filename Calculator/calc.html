@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div>
+        <header>
+            <p id="screen">0</p>
+        </header>
+        <main>
+            <button onclick="screenPrinting('AC')" class="above">AC</button>
+            <button onclick="deleteCharacter()" class="above">DLT</button>
+            <button onclick="screenPrinting('%')" class="above">%</button>
+            <button onclick="screenPrinting('/')" class="sign">/</button>
+            <button onclick="screenPrinting('7')">7</button>
+            <button onclick="screenPrinting('8')">8</button>
+            <button onclick="screenPrinting('9')">9</button>
+            <button onclick="screenPrinting('*')" class="sign">*</button>
+            <button onclick="screenPrinting('4')">4</button>
+            <button onclick="screenPrinting('5')">5</button>
+            <button onclick="screenPrinting('6')">6</button>
+            <button onclick="screenPrinting('-')" class="sign">-</button>
+            <button onclick="screenPrinting('1')">1</button>
+            <button onclick="screenPrinting('2')">2</button>
+            <button onclick="screenPrinting('3')">3</button>
+            <button onclick="screenPrinting('+')" class="sign">+</button>
+            <button onclick="screenPrinting()"></button>
+            <button onclick="screenPrinting('0')">0</button>
+            <button onclick="screenPrinting('.')">.</button>
+            <button onclick="numCalc()" class="sign">=</button>
+        </main>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
