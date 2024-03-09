@@ -1,5 +1,5 @@
-# Hava Durumu Web Sitesi
-Bu projem, kullanıcıların istedikleri şehrin 5 günlük ve anlık hava durumunu görebilecekleri bir web sitesini içermektedir. Hava durumu verilerini almak için OpenWeather API'sini kullanıyorum. Kullanıcılar, web sitesinde belirledikleri şehrin hava durumu tahminlerini görebilirler.
+# Weather
+Bu projemde, kullanıcıların istedikleri şehrin 5 günlük ve anlık hava durumunu görebilecekleri bir web sitesini içermektedir. Hava durumu verilerini almak için OpenWeather API'sini kullanıyorum. Kullanıcılar, web sitesinde belirledikleri şehrin hava durumu tahminlerini görebilirler.
 
 ## Özellikler
 - Kullanıcılar, istedikleri şehrin hava durumunu tahminlerini görebilirler.
